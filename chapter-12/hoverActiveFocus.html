@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/robofond.css">
+    <title>Hover Active</title>
+
+    <style type="text/css">
+        input {
+            padding: 6px 12px 6px 12px;
+            border: 1px solid #654;
+            color: #fff;
+        }
+        input.text {
+            color: #ccc;
+        }
+
+        input.text:focus {
+            color: #654;
+        }
+
+        input.submit:hover {
+            background-color: #654;
+        }
+
+        input.submit:active {
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <input type="text" class="text" value="Enter email address...">
+        <input type="submit" class="submit">
+    </form>
+</body>
+</html>
